@@ -6,7 +6,7 @@ app.use(express.json());
 
 // rota inicial
 app.get("/", (req, res) => {
-  res.send("<h1>Bem-vindo ao meu site!</h1>");
+  res.send("<h1>Seja Bem-vindo(a) ao meu site!</h1>");
 });
 
 // rota de produtos
